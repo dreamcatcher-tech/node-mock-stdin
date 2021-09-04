@@ -1,6 +1,6 @@
 {
-  "name": "mock-stdin",
-  "version": "1.0.0",
+  "name": "mock-stdin-browserify",
+  "version": "1.0.1",
   "description": "Mock STDIN file descriptor in Node.js",
   "main": "./lib/index.js",
   "types": "./index.d.ts",
@@ -26,5 +26,11 @@
   "homepage": "https://github.com/caitp/node-mock-stdin",
   "devDependencies": {
     "mocha": "^6.2.2"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.4"
   }
 }
