@@ -1,6 +1,6 @@
 {
   "name": "mock-stdin-browserify",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Mock STDIN file descriptor in Node.js",
   "main": "./lib/index.js",
   "types": "./index.d.ts",
